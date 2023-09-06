@@ -16,5 +16,6 @@ for project in ${projects[*]}; do
         cd publish && tar -zcvf $project.$plate.tar.gz $project.$plate
         cd ../
         # rm -rf publish/$project.$plate
+        # 添加注释测试
     done
 done
